@@ -1,15 +1,32 @@
+/* 
+* {
+    outline: 2px solid blue;
+  }
+  
+ */
+
+
+
+
+
+
+
 .body{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     text-align: justify;
+    
 }
 
 .main-title{
-    
-    display: inline-block;
+    margin: 15px auto;
+    padding: 5px;
+    width: fit-content;
+    height: auto;
+
+    text-align: center;
     background-color: rgb(31, 31, 39);
-    padding: 4px;
     font-size: 40px;
     font-weight: 1000;
     color: darkcyan;
@@ -17,15 +34,14 @@
     
 }
 
-.titlos{
-    
-    display: flex;
-    justify-content: center;
-
-}
-
 
 .small-title{
+    padding: 5px;
+    width:fit-content;
+    height: auto;
+    margin: 22px auto;
+
+
     font-size: 26px;
     font-weight: 600;
     color: aquamarine;
@@ -35,11 +51,20 @@
 
 .list1{
 text-align: center;
+background-color: rgb(141, 221, 214);
+border: inset rgb(12, 18, 51);
+
+
+
+display: block;
+padding: 5px;
+width: fit-content;
+height:auto;
+margin:26px auto;
 
 }
 
 .ul1{
-    display: inline-block;
     text-align: left;
 }
 
